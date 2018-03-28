@@ -1,38 +1,148 @@
 <html>
 <head>
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700" rel="stylesheet">
+  <script
+  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+  crossorigin="anonymous"></script>
 <script></script>
 <style>
 body{
   font-family: 'Work Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 h1{
   font-size: 80px;
   letter-spacing: -2px;
   line-height: 75px;
-  margin-top: 100px;
+  margin: 10px 0px 0px 0px;
 }
 #page-content{
   max-width:900px;
   margin:auto;
+}
+.deadline{
+  font-size: 24px;
+  color: #ff2b2b;
+  display: inline-block;
+  margin: 40px 0px 30px 0px;
+}
+.top-border{
+  border-top: 3px solid #e6e6e6;
+}
+.title{
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 60px;
+  font-size: 18px;
+  padding-top: 30px;
+}
+.red{
+  color:#b5b5b5;
+}
+.white{
+  color: white;
+}
+p{
+  font-size: 20px;
+  line-height: 32px;
+}
+.summary{
+  font-size: 32px;
+  letter-spacing: -0.7px;
+  line-height: 40px;
+}
+.mandatory{
+  color: red;
+  font-size: 12px;
+}
+li{
+  padding: 10px 0px 20px 0px;
+  font-size: 20px;
+}
+#full-analysis{
+  border: 1px solid #999;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+}
+.thanks{
+  background-color: rgb(15, 157, 88);
+  color: white;
+  border: none;
+}
+.fixed-width-content{
+  max-width:900px;
+  margin:auto;
+  padding-top: 60px;
+}
+.text-centre-align{
+  text-align: center;
+}
+.distance-top-0{
+  margin-top: 0px;
+  padding-top: 0px;
 }
 </style>
 </head>
 <body>
 <div id='page-content'>
   <div id='introduction'>
+    <div class="title">Your response is being sought for</div>
     <h1>National Forest Plan of 2018</h1>
-    <div class="deadline">Deadline: 14th April 2018</div>
-    <p>Currently our forests are of low quality and hence, low output. Therefore, they should be managed in a way that there be continuous output of forest products without too much damage. Additionally, the forests should be in the hands of the local communities. <br/><br/>Basically, the plan is proposing better yield and hence profits while causing least damage to our forests.</p>
+    <div class="deadline">Deadline for responses: 14th April 2018 • <span style='emphasis'>16 Days to go</span></div>
+
+    <p class="summary">In a nutshell, the plan says that currently our forests are of low quality and hence, low output. Therefore, they should be managed in a way that there be continuous output of forest products without too much damage. Additionally, the forests should be in the hands of the local communities. <br/><br/>Basically, the plan is proposing better yield and hence profits while causing least damage to our forests.</p>
+    <div id='full-analysis'>Read & Respond</div>
   </div>
   <div id='elaboration'>
-    <h2>Elaboration</h2>
+    <h2 class='title top-border'>The Goals</h2>
     <p>The plan starts by saying that previous plans made in 1894 and 1952 focussed on making money using the forests and because the latest plan made in 1988 focussed on protecting our forests, it has led to an increase  in the size of our forests.
       While the plan talks about preserving the forest, it contradicts itself and says that our forests should be used more and have a higher output. The plan says our forests will be managed to ensure that they provide products, purify the air and water quality and provide recreation, but it doesn’t say how this will happen. It says it will manage the sale of forest produce - other than wood, to make these products more profitable for people living in the forest, it will also provide gas connections to people living in the forest, so that they don’t need to use wood.
+
+    <h2 class="title top-border">The Goals</h2>
+    <p>The plan says it’s goals are to:
+  <ol>
+    <li>Have 1/3rd of India’s total land as forests</li>
+    <li>Have 2/3rd of India’s mountain lands as forests to reduce soil erosion.</li>
+    <li>It aims to increase protected areas (take a look at what a protected area is in the resources)</li>
+    <li>Not allow people to use forests for any other purpose</li>
+    <li>Plant more trees in cities and along farms</li>
+    <li>Use forest land to improve the quality of water</li>
+    <li>Manage our forests better to reduce emissions and meet India’s targets<span class='mandatory'>*</span></li>
+    <li>Use our forests without causing too much damage</li>
+    <li>Set guidelines that monitor and check our progress on these goals</li>
+  </ol>
+
+*India is a part of a few international agreements to reduce climate change, the forest policy says we will manage our forests better to reduce emissions and meet India’s targets.
+
+</p>
+
+    <h2 class="title top-border">Foundations Of The Policy</h2>
+    <p>While the plan talks about preserving the forest, it contradicts itself and says that our forests should be used more and have a higher output. Here are some of the foundations the plan is based on:
+    <ol>
+      <li>The plan says our forests will be managed to ensure that they provide products, purify the air and water quality and provide recreation, but it doesn’t say how this will happen.</li>
+      <li>It says it will manage the sale of forest produce - other than wood, to make these products more profitable for people living in the forest.</li>
+      <li>It will provide gas connections to people living in the forest, so that they don’t need to use wood.</li>
+    </ol>
 </p>
   </div>
 </div>
-
-<div id='form'><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdHKzLnLinirLdj9WW1db57CKc2IG6bW0GejNrn8vQD8r7QfA/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></div>
+<div class='thanks'>
+  <h2 class="title text-centre-align">Your turn!</h2>
+  <p class="summary white fixed-width-content text-centre-align distance-top-0">First of all, thank you for coming forward and sending in your response. Every response makes a difference. Responses to this plan have been asked for in the form of answers to 4 questions in the form that follows.</p>
+</div>
+<div id='form'><iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpi7IAKdvDXKDO3vVwkOabPNSfdhK-YvOvWVTFXIg9ZadbkQ/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe></div>
 </body>
+<script>
+$("#full-analysis").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#elaboration").offset().top
+    }, 2000);
+});
+</script>
 </html>
